@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevJane Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="img/devjane.png" alt="Logo of DevJane">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li>
+          <a href="index.html#services" class="nav__link">My Services</a>
+        </li>
+        <li>
+          <a href="index.html#about" class="nav__link">About me</a>
+        </li>
+        <li>
+          <a href="index.html#work" class="nav__link">My Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introduction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      The title <strong>of my project</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">A short subtitle</p>
+    <img src="img/portfolio-01.jpg" alt="Screenshot of the project" class="intro__image">
+  </section>
+
+  <div class="portfolio-item-individual">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+    <img src="img/portfolio-details.jpg" alt="Details of project">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:janedev@example.com" class="footer__link">janedev@example.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a href="https://codepen.io/" class="social-list__link">
+          <i class="fab fa-codepen"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a href="https://stackoverflow.com/" class="social-list__link">
+          <i class="fab fa-stack-overflow"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a href="https://twitter.com" class="social-list__link">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a href="https://github.com/" class="social-list__link">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+<script src="js/index.js"></script>
+
+</html>
